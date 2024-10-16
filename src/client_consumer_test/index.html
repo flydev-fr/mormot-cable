@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSocket Chat Client</title>
+  </head>
+  <body>
+    <div id="chatContainer" class="card">
+      <input type="text" id="pseudoInput" placeholder="Enter your nick">
+      <button id="connectButton">Connect</button><br><br>
+
+      <textarea id="content" readonly></textarea><br>
+
+      <div id="command">
+        <input type="text" id="messageInput" placeholder="Type your message here">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>View the source code on <a href="https://github.com/flydev-fr/mormot-websockets-chat" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
